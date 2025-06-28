@@ -1,4 +1,4 @@
-module ecs-images
+module github.com/xcsrz/ecs-images
 
 go 1.24
 
