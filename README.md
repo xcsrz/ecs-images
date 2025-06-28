@@ -4,6 +4,12 @@
 
 This tool lists all unique container image URIs used by services in a given AWS ECS cluster, and shows which services use each image.
 
+## Installation
+
+```
+go install github.com/xcsrz/ecs-images@latest
+```
+
 ## Usage
 
 ```
