@@ -13,7 +13,7 @@ go install github.com/xcsrz/ecs-images@latest
 ## Usage
 
 ```
-go run main.go --cluster <ECS_CLUSTER_NAME> [--region <AWS_REGION>]
+ecs-images --cluster <ECS_CLUSTER_NAME> [--region <AWS_REGION>]
 ```
 - `--cluster` (required): The name of the ECS cluster to inspect.
 - `--region` (optional): The AWS region (default: `us-east-1`).
